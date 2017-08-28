@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Freelancer</title>
+	<!-- Enlaza aquí tu CSS común y de tu proyecto -->
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:700" rel="stylesheet">
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/common.css">
+</head>
+<body>
+	<!-- Escribe tu código aquí -->
+	<nav>
+		<div class="container">
+			<div class="barra">
+				<ul class="nav">
+					<div class="izquierda">
+						<a class="titulo" href="top">Start Bootstrap</a>
+					</div>
+					<div class="derecha">
+						<li class="scroll">
+							<a href="#portafolio">Portfolio</a>
+						</li>
+						<li class="scroll">
+							<a href="#about">About</a>
+						</li>
+						<li class="scroll">
+							<a href="#contact">Contact</a>
+						</li>
+					</div>
+				</ul>
+			</div>
+		</div>
+	</nav>
+	
+	<section>
+		<div class="inicio">
+			<div class="centroImagen">
+				<img src="assets/images/profile.png" alt="">
+			</div>
+			<div class="alinear">
+				<h1>START BOOTSTRAP</h1>
+				<div class="star-white"></div>
+				<h3>Web Developer - Graphic Artist - User Experience Designer</h3>
+			</div>
+		</div>
+	</section>
+	<section id="portafolio">
+		<div class="flotar">
+			<div class="portafolio">
+				<div class="alinear">
+					<h2>PORTAFOLIO</h2>
+					<div class="star-black"></div>
+					
+				</div>
+			</div>
+		</div>
+		<div id="modalId" class="modal"> <span class="close">&times;</span> <img class="modal-content" id="img01">&#60; </div>
+						
+		<div class="row box-work">
+			<div class="col-4">
+			
+				<img src="assets/images/portfolio/cabin.png" alt=""  width="80%" class="mostrar">
+					
+			</div>
+			<div class="col-4">
+				<div class="lupa">
+					<i class="fa fa-search-plus fa-4x"></i>
+				</div>
+				<img src="assets/images/portfolio/cake.png" alt=""  width="80%" class="mostrar">
+				
+			</div>
+			<div class="col-4">
+				<div class="lupa">
+				<i class="fa fa-search-plus fa-4x"></i>
+				</div>
+				<img src="assets/images/portfolio/circus.png" alt="" width="80%" class="mostrar">
+				
+			</div>
+		</div>
+		<div class="row box-work">
+			<div class="col-4">
+				<div class="lupa">
+				<i class="fa fa-search-plus fa-4x"></i>
+				</div>
+				<img src="assets/images/portfolio/game.png" alt=""  width="80%" class="mostrar">
+							
+			</div>
+			<div class="col-4">
+				<div class="lupa">
+				<i class="fa fa-search-plus fa-4x"></i>
+				</div>
+				<img src="assets/images/portfolio/safe.png" alt=""  width="80%" class="mostrar">
+			</div>
+			<div class="col-4">
+				<div class="lupa">
+				<i class="fa fa-search-plus fa-4x"></i>
+				</div>
+				<img src="assets/images/portfolio/submarine.png" alt=""  width="80%" class="mostrar">
+							
+			</div>
+		</div>
+
+	
+	</section>
+	<section id="about">
+		<div  class="about">
+			<div class="tituloAbout">
+				<div class="alinear">
+					<h2 class="whiteText">ABOUT</h2>
+					<div class="star-white"></div>
+				</div>
+			</div>
+			<div class="textoColumns">
+			<div class="text1">
+				<p>Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional LESS stylesheets for easy customization.</p>
+			</div>
+			<div class="text2">
+				<p>Whether you're a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share your projects, this template is the perfect starting point!</p>
+			</div>
+		</div>
+					<div class="btnDownload">
+				<i class="fa fa-download" aria-hidden="true"></i>
+				Download Theme
+			</div>
+		</div>
+
+	</section>
+		<section  id ="contact">
+		<div class="tituloForm">
+			<div class="contact">
+				<h2>CONTACT ME</h2>
+				<div class="star-black"></div>
+			</div>
+			<div class="contentForm">
+				<form class="formulario" action="#" method="post">
+                        <div class="form-input">
+							<label for="name">Name *</label>
+							<input type="text" name="name" id="name" placeholder="Name" value="" required="" />
+						</div>
+						<div class="form-input">
+							<label for="email">Email Address *</label>
+							<input type="email" name="email" id="email" placeholder="Email Address" value=""  required=""/>
+						</div>
+						<div class="form-input">
+							<label for="phone">Phone Number *</label>
+							<input type="number" name="phone" id="phone" placeholder="Phone Number" value="" required="" />
+						</div>
+						<div class="form-input">
+							<label for="textarea">Message *</label>
+							<textarea name="textarea" id="message" placeholder="Message" required="" ></textarea>
+						</div>
+					<!--	<div class="form-input">
+							<button type="submit" id="sendBtn" class="btn" >Send</button>-->
+							    <div class="el-boton">
+                            <a href="#" type="submit" class="boton">Send</a>
+                      <!--  </div>-->
+						</div>
+				
+				</form>
+			</div>
+		</div>
+	</section>
+
+	
+  <footer class="clearfix">
+		<div class="top">
+			<div class="container">
+				<div class="row">
+					<div class="col-4">
+						<div class="row">
+							<h4>Location</h4>
+							<address>3481 Melrose Place<br>Beverly Hills, CA 90210</address>
+						</div>
+					</div>
+					
+					<div class="col-4">
+						<div class="row">
+							<h4>Around the web</h4>
+							<a href="#" class="btn-social">
+								<i class="fa fa-facebook"></i>
+							</a>
+							<a href="#" class="btn-social">
+								<i class="fa fa-google-plus"></i>
+							</a>
+							<a href="#" class="btn-social">
+								<i class="fa fa-twitter"></i>
+							</a>
+							<a href="#" class="btn-social">
+								<i class="fa fa-linkedin"></i>
+							</a>
+							<a href="#" class="btn-social">
+								<i class="fa fa-dribbble"></i>
+							</a>
+						</div>
+					</div>
+					<div class="col-4">
+						<div class="row">
+							<h4>About Freelancer</h4>
+							<small>Freelance is a free to use, open source Bootstrap theme created by <a href="#" class="alinea">Start Bootstrap</a>.</small>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<div class="bot">
+			<div class="container">
+				<div class="row">
+					<small>Copyright &copy; Your Website <script type="text/javascript">document.write(new Date().getFullYear());</script></small>
+					<small>Desarrollado por Milagros Mendoza</small>
+				</div>
+			</div>
+		</div>
+	</footer>
+    <!-- aqui va el modal oculto -->
+    <div id="box-work-modal" class="hide">
+        <!-- Aca van el modal dinamico -->
+    </div>
+    <!-- Enlaza tu JS aquí -->
+    <script type="text/javascript" src="js/app.js"></script>
+</body>
+
+</html>

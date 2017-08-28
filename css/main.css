@@ -1,0 +1,431 @@
+/*
+ * Estilos de tu proyecto
+ */
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+ body{
+   font-family: 'Open Sans', sans-serif;
+   overflow-x:hidden
+}
+.barra{
+  width: 100%;
+  z-index: 100;
+  position: fixed;
+    margin-bottom: 0 20px;
+}
+ul{
+  background-color: #2C3E50;
+  padding: 25px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 100px;
+  padding-right: 100px;
+  align-items: baseline;
+  transition: padding 0.5s;
+}
+li{
+  display: inline-block;
+  padding: 20px;
+  list-style: none;/*para quitar el simbolo de lista*/
+}
+.pestana{
+    background-color: #18BC9C;
+}
+a{
+  color: whitesmoke;
+  text-decoration: none;/*se quita la linea de subrayado*/
+  padding: 10px;
+}
+a:hover{
+  color:#18BC9C;
+}
+.titulo{
+  font-size: 35px;
+  transition: all 0.5s;
+}
+.inicio{
+  padding-top: 150px;
+  width: 100%;
+  height: 800px;
+  display: flex;
+  justify-content: center;
+  background-color: #18BC9C;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 400px;
+}
+
+h3{
+  color: white;
+  font-size: 27px;
+}
+h2{
+  font-weight: bolder;
+  color: #333;
+  font-size: 42px;
+}
+h1{
+  font-size: 76px;
+  color: white;
+}
+.white{
+  background-color: white;
+}
+.whiteText{
+  color: white;
+}
+
+.alinear{
+  width: 100%;
+  display: flex;
+  align-items:  center;
+  flex-direction: column;
+}
+
+.flotar{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.grid{
+  width: 100%;
+  height: 650px;
+  display: flex;
+  justify-content: center;
+}
+.portafolio{
+  margin-top: 80px;
+}
+.cuadros{
+  height: 90%;
+  width: 80%;
+  height: 500px;
+  margin: 0px auto;
+}
+/*estrella*/
+/*La linea con estrella blanca*/
+.star-white {
+  width: 250px;
+  height: 0;
+  margin: 25px auto;
+  padding: 0;
+  text-align: center;
+  border-top: solid 5px;
+	color: #fff;
+}
+
+.star-white:after {
+  font-family: FontAwesome;
+  font-size: 2em;
+  position: relative;
+  top: -20px;
+  padding: 0 0.25em;
+  content: '\f005';
+}
+
+
+.star-white:after {
+  background-color: #18BC9C;
+}
+
+
+/*La linea con estrella negra*/
+.star-black {
+  width: 250px;
+  height: 0;
+  margin: 25px auto;
+  padding: 0;
+  text-align: center;
+  border-top: solid 5px;
+	color: #1c1b1b;
+}
+
+.star-black:after {
+  font-family: FontAwesome;
+  font-size: 2em;
+  position: relative;
+  top: -20px;
+  padding: 0 0.25em;
+  content: '\f005';
+}
+
+
+.star-black:after {
+  background-color: #f2f8f7;
+}
+/*lupaaa*/
+.lupa{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	background-color: #18dbb5;
+	opacity: 0;
+	text-align:center;
+}
+.lupa:hover{
+	opacity: 0.7;
+}
+ .row i{
+	color: white;
+	position: relative;
+	top: 45%;
+}
+
+/**fotos*/
+
+.box-work {
+    display: flex;
+    margin-top: 20px;
+}
+/*****/
+
+
+
+
+.about{
+  display: flex;
+  padding-top: 50px;
+  width: 100%;
+  height: 500px;
+  background-color: #18BC9C;
+  flex-direction: column;
+  align-items: center;
+}
+.boton-about{
+	padding: 5px;
+}
+.tituloAbout{
+  display: flex;
+}
+.textoColumns{
+  width: 54%;
+  display: flex;
+  justify-content:space-between;
+}
+.text1, .text2{
+  width: 47%;
+  font-size: 18px;
+  color: white;
+}
+/**CONTAC ME*/
+.title {
+    margin: 1em auto 2em;
+    overflow: hidden;
+    max-width: 640px;
+}
+.title .star-line {
+	display: block;
+	width: 230px;
+	height: 5px;
+	background-color: #2C3E50;
+	left: 0;
+	right: 0;
+	margin: 1em auto;
+	position: relative;
+}
+.title .star-line:after {
+	content: "\f005";
+    font-family: 'FontAwesome';
+    background-color: #f9f9f9;
+    width: 1.5em;
+    overflow: hidden;
+    height: 1em;
+    position: absolute;
+    text-align: center;
+    font-size: 150%;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    top: -.5em;
+}
+/*boton download about*/
+.btnDownload {
+	border: 2px solid;
+	color: #fff;
+	border-radius: 4px;
+	width: 20%;
+	text-align:center;
+	margin: 40px auto;
+	padding: 10px 0;
+	cursor: pointer;
+}
+
+.btnDownload:hover{
+	background-color: white;
+	color:#18bc9c;
+}
+
+
+/*Para el Formulario:*/
+.tituloForm{
+  padding-top: 100px;
+  padding-bottom: 100px;
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+}
+.contentForm{
+  width: 60%;
+  height: 400px;
+}
+.formulario{
+  display: flex;
+  flex-direction: column;
+  align-items:flex-start ;
+}
+
+.row:first-child .form-input {
+    border-top: 1px solid #eee;
+}
+
+
+.form-input {
+    border-bottom: 1px solid #eee;
+}
+.form-input label {
+    display: none;
+	text-align: center;
+}
+.form-input input, .form-input textarea {
+	background: transparent;
+    border: none;
+    width: 100%;
+    padding: 5px;
+    color: #555;
+    margin: 15px 0 10px;
+    font-size: 120%;
+    font-family: 'Lato', Helvetica, Arial, sans-serif;
+
+}
+.form-input input::placeholder, .form-input textarea::placeholder {
+	color: #9e9e9e;
+}
+.form-input textarea {
+    height: 5em;
+}
+.form-input small {
+    margin: 0 0 10px;
+}
+
+
+.el-boton{
+	margin: 40px 70px;
+}
+
+.boton{
+  height: 40px;
+  width: 70px;
+  background-color: #18BC9C;
+  border-radius: 10px;
+  font-size: 20px;
+  color: white;
+  border: 0px solid;
+}
+/* INPUT NUMBER SIN FLECHAS */
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+	-webkit-appearance: none; 
+	margin: 0; 
+}
+
+/* Clases de soporte */
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	content: "";
+	clear: both;
+	height: 0;
+}
+.container {
+	max-width: 1500px;
+	width: 100%;
+	display: block;
+	margin: 0 auto;
+}
+.row {
+	margin-left: -.5%;
+	margin-right: -.5%;
+	clear: both;
+	width: 100%;
+}
+.row:before, .row:after{
+	content: "";
+	display: table;
+}
+.row:after{
+	clear: both;
+}
+.m-0 {
+	margin: 0 !important;
+}
+.p-0 {
+	padding: 0 !important;
+}
+.centered {
+	margin: 0 auto;
+	float: none;
+}
+.left {
+	float: left !important;
+}
+.right {
+	float: right !important;
+}
+.hidden {
+	display: none !important;
+}
+/*Para los botones red social*/
+.btn-social {
+    color: #fff;
+    font-size: 1.5rem;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    display: inline-grid;
+    text-align: center;
+    margin: 0 .25em;
+    background-color: transparent;
+}
+.btn-social:hover, .btn-social:focus, .btn-social:active {
+	background-color: #fff;
+}
+/*
+// FOOTER
+*/
+footer {
+	text-align: center;
+	color: #fff;
+}
+footer h4 {
+	margin: 0 0 1em;
+}
+footer a {
+	text-decoration:none;
+    color: #18BC9C;
+}
+
+small a:hover {
+    color: #7febef;
+    text-decoration: underline;
+    cursor: pointer;
+}
+footer .top {
+	padding: 50px 0;
+    background-color: #2C3E50;
+}
+footer .top small {
+	font-size: 110%;
+	line-height: 140%;
+	padding: 0 1em;
+}
+footer .bot {
+	padding: 25px 0;
+    background-color: #233140;
+}
